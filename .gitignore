@@ -1,3 +1,4 @@
 env
 .idea
 React/personal-finance-app/node_modules/
+.vscode
