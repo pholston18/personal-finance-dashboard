@@ -11,7 +11,7 @@ body {
 }
 
 .sidebar {
-    border-right: 2px solid black;
+    border-right: 1px solid lightgray;
     position: fixed;
     top: 0px;
     bottom: 0px;
@@ -22,12 +22,8 @@ body {
     justify-content: space-between;
 }
 
-.logo {
-    border-bottom: 1px solid black;
-}
-
 .logo h1 {
-    margin: 15px 0px 5px 25px;
+    margin: 15px 0px 5px 15px;
     font-weight: bold;
     font-size: 18pt;
 }
@@ -37,7 +33,7 @@ body {
 }
 
 nav {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .sb-menu {
@@ -48,7 +44,8 @@ nav {
 .sb-link {
     display: block;
     color: #000;
-    padding: 15px 25px;
+    padding: 15px 10px;
+    margin: auto 10px auto 25px;
     text-decoration: none;
     font-size: 14pt;
 }
@@ -60,10 +57,13 @@ nav {
 }
 
 .sb-quote {
-    border-top: 2px solid black;
+    margin: 15px 10px;
 }
 
 .sb-quote span {
+    display: block;
     font-weight: 100;
     font-size: smaller;
+    margin-top: 10px;
+    font-style: italic;
 }
