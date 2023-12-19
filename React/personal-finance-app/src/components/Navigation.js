@@ -1,3 +1,4 @@
+import "../styles/navigation.css"
 
 const Navigation = () => {
     return (
@@ -7,18 +8,18 @@ const Navigation = () => {
             <hr />
             <nav>
                 <ul className="sb-menu">
-                        <li className="sb-item"><a href="" className="sb-link">Dashboard</a></li>
-                        <li className="sb-item"><a href="" className="sb-link">Spending</a></li>
-                        <li className="sb-item"><a href="" className="sb-link">Budgets</a></li>
-                        <li className="sb-item"><a href="" className="sb-link">Transactions</a></li>
-                        <li className="sb-item"><a href="" className="sb-link">Financial Health</a></li>
-                        <li className="sb-item"><a href="" className="sb-link">Statistics</a></li>
+                        <li><a href="./" className="sb-link">Dashboard</a></li>
+                        <li><a href="./spending" className="sb-link">Spending</a></li>
+                        <li><a href="./budgets" className="sb-link">Budgets</a></li>
+                        <li><a href="./transactions" className="sb-link">Transactions</a></li>
+                        <li><a href="./financial-health" className="sb-link">Financial Health</a></li>
+                        <li><a href="./statistics" className="sb-link">Statistics</a></li>
                 </ul>
             </nav>
             </div>
             <div className="sb-bottom-section">
                 <ul className="sb-menu">
-                    <li className="sb-item"><a href="" className="sb-link">Settings</a></li>
+                    <li><a href="./settings" className="sb-link">Settings</a></li>
                 </ul>
                 <hr />
                 <div className="sb-quote">

@@ -1,7 +1,13 @@
-import Transactions from "./pages/Transactions"
 import Navigation from "./components/Navigation";
+import Dashboard from "./components/Dashboard"
+
 const App = () => {
-  return <Navigation/>
+  return (
+    <>
+      <Navigation/>
+      <Dashboard/>
+    </>
+  )
 }
 
 export default App;
